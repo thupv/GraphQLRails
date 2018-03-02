@@ -52,3 +52,4 @@ gem 'graphql'
 gem 'graphiql-rails', group: :development
 gem 'json_web_token', '>= 0.3.5'
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', require: 'bcrypt'
+gem 'rack-cors', :require => 'rack/cors'
